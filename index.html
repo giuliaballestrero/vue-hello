@@ -19,7 +19,7 @@
 
     
 
-    <div  id="app">
+    <div  id="app" class="text-center">
         <header class="p-5">
         <h1 class="container">
             {{message}}
@@ -31,11 +31,12 @@
                 <div class="row">
                     <div class="col-12">
                         <h2>
-                            
+                            {{title}}
                         </h2>
                         <p>
-                            
+                            {{text}}
                         </p>
+                        <img class="img-fluid" v-bind:src="image" alt="">
                     </div>
                 </div>
             </div>
